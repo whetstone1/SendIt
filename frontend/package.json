@@ -1,0 +1,53 @@
+{
+  "name": "sendit-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the SendIt crowdfunding app",
+  "main": "App.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|@react-native|@react-navigation)"
+    ]
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.0.0",
+    "@react-navigation/stack": "^6.0.0",
+    "axios": "^0.21.1",
+    "formik": "^2.2.9",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.2",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-web": "~0.17.1",
+    "styled-components": "^5.3.0",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "^7.2.0",
+    "@testing-library/jest-native": "^4.0.4",
+    "@testing-library/jest-dom": "^5.11.10",
+    "jest": "^26.6.3",
+    "jest-expo": "^41.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/SendIt.git"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/SendIt/issues"
+  },
+  "homepage": "https://github.com/your-username/SendIt#readme"
+}
